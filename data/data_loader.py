@@ -3,7 +3,7 @@ from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 import numpy as np
 import pandas as pd
 
-# traffic data
+# traffic/Solar/Wiki data
 class Dataset_Dhfm(Dataset):
     def __init__(self, root_path, flag, seq_len, pre_len, type):
         assert flag in ['train', 'test', 'val']
@@ -52,7 +52,7 @@ class Dataset_Dhfm(Dataset):
         else:
             return len(self.testData)-self.seq_len-self.pre_len
 
-# ECG/COVID dataset
+# ECG/COVID/Exchange/METR-LA/Electricity dataset
 class Dataset_ECG(Dataset):
     def __init__(self, root_path, flag, seq_len, pre_len, type, train_ratio, val_ratio):
         assert flag in ['train', 'test', 'val']
