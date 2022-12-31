@@ -21,13 +21,34 @@ METR-LA - https://github.com/liyaguang/DCRNN
 Exchange - https://github.com/laiguokun/multivariate-time-series-data
 
 ### Baselines
-Informer
+DeepGLO - https://github.com/rajatsen91/deepglo
 
-Reformer
+LSTNet - https://github.com/laiguokun/LSTNet
 
-FEDformer
+TCN - https://github.com/locuslab/TCN
 
-StemGNN
+Informer - https://github.com/zhouhaoyi/Informer2020
 
-AGCRN
+Reformer - https://github.com/thuml/Autoformer
+
+Autoformer - https://github.com/thuml/Autoformer
+
+FEDformer - https://github.com/MAZiqing/FEDformer
+
+SFM - https://github.com/z331565360/State-Frequency-Memory-stock-prediction
+
+StemGNN - https://github.com/microsoft/StemGNN
+
+MTGNN - https://github.com/nnzhan/MTGNN
+
+GraphWaveNet - https://github.com/nnzhan/Graph-WaveNet
+
+AGCRN - https://github.com/LeiBAI/AGCRN
+
+TAMP-S2GCNets - https://www.dropbox.com/sh/n0ajd5l0tdeyb80/AABGn-ejfV1YtRwjf_L0AOsNa?dl=0
+
+DCRNN - https://github.com/liyaguang/DCRNN
+
+STGCN - https://github.com/VeritasYin/STGCN_IJCAI-18
+
 
