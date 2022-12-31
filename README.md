@@ -13,3 +13,13 @@ METR-LA
 
 
 ### Baselines
+Informer
+
+Reformer
+
+FEDformer
+
+StemGNN
+
+AGCRN
+
