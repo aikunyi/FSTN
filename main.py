@@ -11,7 +11,7 @@ import numpy as np
 from utils.utils import save_model, load_model, evaluate
 
 
-parser = argparse.ArgumentParser(description='fourier graph filter for multivariate time series forecasting')
+parser = argparse.ArgumentParser(description='fourier spatial-tmporal network for multivariate time series forecasting')
 parser.add_argument('--data', type=str, default='ECG', help='data set')
 parser.add_argument('--feature_size', type=int, default='140', help='feature size')
 parser.add_argument('--number_frequency', type=int, default='1', help='number of frequency')
