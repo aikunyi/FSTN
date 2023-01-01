@@ -15,7 +15,7 @@ parser = argparse.ArgumentParser(description='fourier spatial-tmporal network fo
 parser.add_argument('--data', type=str, default='ECG', help='data set')
 parser.add_argument('--feature_size', type=int, default='140', help='feature size')
 parser.add_argument('--number_frequency', type=int, default='1', help='number of frequency')
-parser.add_argument('--seq_length', type=int, default=12, help='inout length')
+parser.add_argument('--seq_length', type=int, default=12, help='input length')
 parser.add_argument('--pre_length', type=int, default=12, help='predict length')
 parser.add_argument('--embed_size', type=int, default=128, help='hidden dimensions')
 parser.add_argument('--hidden_size', type=int, default=256, help='hidden dimensions')
